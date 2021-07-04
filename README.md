@@ -63,7 +63,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Setup the application
 
-Create folder videos in storage
+Create folder videos in storage/app/public
 
 php artisan storage:link
 
@@ -78,4 +78,4 @@ DB_PASSWORD=your_password
 
 ## Execute 
 
-php artisan migrate# video_render
+php artisan migrate
